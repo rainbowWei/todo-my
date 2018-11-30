@@ -1,4 +1,20 @@
 const state = {
+  buttontypes:[
+    {
+      title:'done',
+      ctitle: '完成'
+    },
+    {
+      title:'undone',
+      ctitle: '未完成'
+    },
+    {
+      title:'all',
+      ctitle: '全部完成'
+    }
+
+],
+complate:'all',
   list: [
     {
       id: 1,
