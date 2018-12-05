@@ -3,6 +3,7 @@ const actions = {
         setTimeout(() => {
             commit('DEL',val)
         },4000)
+        console.log("ndddsnsndsnd")
     }
 }
 export default actions
