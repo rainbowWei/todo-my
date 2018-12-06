@@ -74,7 +74,9 @@ export default {
             this.TOGGLE1(id)
         },
         del(id){
-            this.DEL1(id)
+            // this.DEL1(id)
+            // this.$store.commit('DEL1',id)
+            this.Del(id)
         },
         filter(buttontype){
             this.$store.commit('FILTER1',buttontype)
